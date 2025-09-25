@@ -10,7 +10,7 @@ const events = [
     date: "Sabado, 20 de Diciembre del 2025",
     time: "4:00 PM",
     location: "Catedral Santa Rosa de Lima",
-    address: "123 Faith Avenue, Celebration City",
+    address: "Casco central, Carúpano 6150",
     mapLink: "https://www.google.com/maps/place/Catedral+Santa+Rosa+de+Lima/@10.6695611,-63.2477044,17z/data=!3m1!4b1!4m6!3m5!1s0x8c33dd1f31d2f28b:0x493a44f56cdf58fa!8m2!3d10.6695558!4d-63.2451295!16s%2Fg%2F11bxfgp236?entry=ttu&g_ep=EgoyMDI1MDkyMi4wIKXMDSoASAFQAw%3D%3D",
   },
   {

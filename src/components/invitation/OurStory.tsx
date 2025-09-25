@@ -7,12 +7,12 @@ export function OurStory() {
       <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-4xl mx-auto">
         <div className="md:w-1/2">
           <Image
-            src="https://picsum.photos/seed/ourstory/600/800"
+            src="https://storage.googleapis.com/clara-untrusted-artifacts/image-uploads/87d90d3d-9eb9-40b9-87a4-927914fdd0da.jpeg"
             alt="Our Story"
             width={600}
             height={800}
             className="rounded-lg shadow-lg object-cover aspect-[3/4]"
-            data-ai-hint="couple portrait"
+            data-ai-hint="couple portrait sunset"
           />
         </div>
         <div className="md:w-1/2 text-left space-y-4 text-lg text-foreground/80">
