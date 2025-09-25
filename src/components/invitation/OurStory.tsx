@@ -7,7 +7,7 @@ export function OurStory() {
       <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-4xl mx-auto">
         <div className="md:w-1/2">
           <Image
-            src="https://storage.googleapis.com/clara-untrusted-artifacts/image-uploads/87d90d3d-9eb9-40b9-87a4-927914fdd0da.jpeg"
+            src="https://picsum.photos/seed/couple-story/600/800"
             alt="Our Story"
             width={600}
             height={800}
