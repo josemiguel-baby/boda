@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center">
       <Hero />
+      <OurStory />
+      <Separator className="my-12 md:my-20" />
       <Countdown weddingDate={weddingDate} />
       <EventDetails />
-      <Separator className="my-12 md:my-20" />
-      <OurStory />
       <Gallery />
       <GiftRegistry />
       <RsvpForm />
