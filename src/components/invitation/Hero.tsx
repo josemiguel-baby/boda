@@ -14,11 +14,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 p-4">
         <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl font-bold drop-shadow-lg break-words">
-          María de Lourdes Blanco Yañez 
-          <br className="md:hidden" />
-          y 
-          <br className="md:hidden" />
-          Yeremy Alexander Padilla Montilla
+          María de Lourdes Blanco Yañez y Yeremy Alexander Padilla Montilla
         </h1>
         <p className="mt-4 text-lg md:text-2xl drop-shadow-md">
           ¡Nos casamos!
