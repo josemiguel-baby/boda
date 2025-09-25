@@ -57,7 +57,7 @@ export function RsvpForm() {
   }
 
   return (
-    <Section id="rsvp" title="RSVP" description="Please let us know if you can make it by August 20th, 2025.">
+    <Section id="rsvp" title="Confirmación de asistencia" description="Por favor dejanos saber si podras acompañarnos en esta fecha">
       <Card className="max-w-2xl mx-auto shadow-lg">
         <CardContent className="p-6 md:p-8">
           <Form {...form}>

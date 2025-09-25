@@ -26,7 +26,7 @@ const events = [
 
 export function EventDetails() {
   return (
-    <Section id="details" title="Event Details">
+    <Section id="details" title="Lugar">
       <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
         {events.map((event) => (
           <Card key={event.title} className="text-center shadow-lg hover:shadow-xl transition-shadow duration-300">

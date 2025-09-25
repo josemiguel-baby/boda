@@ -45,14 +45,14 @@ export function Countdown({ weddingDate }: CountdownProps) {
   }
 
   const timeUnits = [
-    { label: "Days", value: timeLeft.days },
-    { label: "Hours", value: timeLeft.hours },
-    { label: "Minutes", value: timeLeft.minutes },
-    { label: "Seconds", value: timeLeft.seconds },
+    { label: "Días", value: timeLeft.days },
+    { label: "Horas", value: timeLeft.hours },
+    { label: "Minutos", value: timeLeft.minutes },
+    { label: "Segundos", value: timeLeft.seconds },
   ];
 
   return (
-    <Section title="The Big Day is Approaching!">
+    <Section title="El gran día se esta acercando">
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-2xl mx-auto">
         {timeUnits.map((unit) => (
           <div key={unit.label} className="flex flex-col items-center justify-center bg-card p-6 rounded-lg shadow-md border border-primary/20">

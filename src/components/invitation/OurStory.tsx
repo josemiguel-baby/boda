@@ -3,7 +3,7 @@ import { Section } from "@/components/shared/Section";
 
 export function OurStory() {
   return (
-    <Section id="story" title="Our Story">
+    <Section id="story" title="Nuestra historia">
       <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-4xl mx-auto">
         <div className="md:w-1/2">
           <Image

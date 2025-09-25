@@ -14,10 +14,10 @@ export function Hero() {
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 p-4">
         <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl font-bold drop-shadow-lg">
-          Carlos & Francisbel
+          María y Jeremy
         </h1>
         <p className="mt-4 text-lg md:text-2xl drop-shadow-md">
-          Are getting married
+          ¡Nos casamos!
         </p>
         <p className="mt-2 text-xl md:text-3xl font-semibold tracking-wider drop-shadow-md">
           20.09.2025
