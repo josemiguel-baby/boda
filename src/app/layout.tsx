@@ -3,8 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Eventide',
-  description: 'A beautiful wedding invitation experience.',
+  title: 'Boda',
 };
 
 export default function RootLayout({
