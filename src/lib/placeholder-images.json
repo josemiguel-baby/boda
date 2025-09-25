@@ -1,3 +1,40 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "gallery-1",
+      "description": "A loving couple holding hands.",
+      "imageUrl": "https://images.unsplash.com/photo-1561287495-a3fe1fd28504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb3VwbGUlMjBoYW5kc3xlbnwwfHx8fDE3NTg4MTYxOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "couple hands"
+    },
+    {
+      "id": "gallery-2",
+      "description": "A beautiful wedding cake with floral decorations.",
+      "imageUrl": "https://images.unsplash.com/photo-1535254973040-607b474cb50d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwY2FrZXxlbnwwfHx8fDE3NTg3Mzc3ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding cake"
+    },
+    {
+      "id": "gallery-3",
+      "description": "A bouquet of wedding flowers.",
+      "imageUrl": "https://images.unsplash.com/photo-1521129866021-4313ccf20e9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3ZWRkaW5nJTIwZmxvd2Vyc3xlbnwwfHx8fDE3NTg4MTYxOTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding flowers"
+    },
+    {
+      "id": "gallery-4",
+      "description": "A couple smiling on their wedding day.",
+      "imageUrl": "https://images.unsplash.com/photo-1491582990992-68ec88e070a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoYXBweSUyMGNvdXBsZXxlbnwwfHx8fDE3NTg4MTU4NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy couple"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Wedding rings on a pillow.",
+      "imageUrl": "https://images.unsplash.com/photo-1529634597503-139d3726fed5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3ZWRkaW5nJTIwcmluZ3N8ZW58MHx8fHwxNzU4NzkxNDAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding rings"
+    },
+    {
+      "id": "gallery-6",
+      "description": "A beautifully set table at a wedding reception.",
+      "imageUrl": "https://images.unsplash.com/photo-1723832348105-2e69f948135a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3ZWRkaW5nJTIwcmVjZXB0aW9ufGVufDB8fHx8MTc1ODc5MTQwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding reception"
+    }
+  ]
 }
