@@ -56,7 +56,7 @@ export function Countdown({ weddingDate }: CountdownProps) {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-2xl mx-auto">
         {timeUnits.map((unit) => (
           <div key={unit.label} className="flex flex-col items-center justify-center bg-card p-6 rounded-lg shadow-md border border-primary/20">
-            <span className="font-headline text-4xl md:text-6xl font-bold text-primary-foreground/90">{String(unit.value).padStart(2, "0")}</span>
+            <span className="font-headline text-4xl md:text-6xl font-bold text-primary">{String(unit.value).padStart(2, "0")}</span>
             <span className="text-sm md:text-base text-muted-foreground">{unit.label}</span>
           </div>
         ))}
