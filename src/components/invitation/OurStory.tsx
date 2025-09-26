@@ -7,7 +7,7 @@ export function OurStory() {
       <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-4xl mx-auto">
         <div className="md:w-1/2">
           <Image
-            src="/images/our_story.jpg"
+            src="/images/history.jpg"
             alt="Nuestra Historia"
             width={600}
             height={800}

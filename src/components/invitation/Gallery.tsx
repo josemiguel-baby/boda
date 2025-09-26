@@ -7,7 +7,7 @@ export function Gallery() {
   const images = PlaceHolderImages;
 
   return (
-    <Section id="gallery" title="Gallery" description="A few of our favorite moments.">
+    <Section id="gallery" title="Galeria" description="Algunos de nuestros momentos.">
       <div className="columns-2 md:columns-3 gap-4">
         {images.map((image, index) => (
           <div key={image.id} className="mb-4 break-inside-avoid">

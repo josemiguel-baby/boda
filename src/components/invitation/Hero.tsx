@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <div className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center text-center text-white overflow-hidden">
       <Image
-        src="https://picsum.photos/seed/wedding-hero/1920/1080"
+        src="/images/top.jpg"
         alt="Couple celebrating their wedding"
         fill
         className="object-cover"
