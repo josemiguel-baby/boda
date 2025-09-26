@@ -1,37 +1,44 @@
 "use client";
 
-import { useState } from "react";
-import { Heart, Send } from "lucide-react";
-
 import { Button } from "@/components/ui/button";
 import { Section } from "@/components/shared/Section";
 import { Card, CardContent } from "@/components/ui/card";
 
+const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+    <path d="M14.05 4.94A9 9 0 0 1 22.12 13.01" />
+    <path d="M14.05 8.94A5 5 0 0 1 18.07 13.01" />
+  </svg>
+);
+
+
 export function RsvpForm() {
-  const [isSubmitted, setIsSubmitted] = useState(false);
+  const phoneNumber = "15551234567"; // Replace with your WhatsApp number
+  const message = "¡Hola! Confirmo mi asistencia a la boda."; // Optional: pre-filled message
+  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
-  const handleClick = () => {
-    setIsSubmitted(true);
-  };
-
-  if (isSubmitted) {
-    return (
-      <Section id="rsvp" title="¡Gracias!">
-        <div className="text-center max-w-md mx-auto">
-          <Heart className="mx-auto w-12 h-12 text-primary animate-pulse" />
-          <p className="mt-4 text-lg">Tu respuesta ha sido recibida. ¡Nos vemos en la celebración!</p>
-        </div>
-      </Section>
-    );
-  }
 
   return (
     <Section id="rsvp" title="Confirmación de asistencia" description="Por favor déjanos saber si podrás acompañarnos en esta fecha">
       <Card className="max-w-2xl mx-auto shadow-lg">
         <CardContent className="p-6 md:p-8 flex justify-center">
-          <Button onClick={handleClick} size="lg">
-            <Send className="mr-2 h-4 w-4" />
-            Confirmar asistencia
+          <Button asChild size="lg">
+            <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+              <WhatsAppIcon className="mr-2 h-5 w-5" />
+              Confirmar por WhatsApp
+            </a>
           </Button>
         </CardContent>
       </Card>
