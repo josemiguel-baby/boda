@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <div className="relative w-full h-[60vh] md:h-[80vh] flex items-center justify-center text-center text-white overflow-hidden">
       <Image
-        src="/images/top.jpg"
+        src="https://picsum.photos/seed/wedding-hero/1920/1080"
         alt="Couple celebrating their wedding"
         fill
         className="object-cover"
@@ -13,8 +13,8 @@ export function Hero() {
       />
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 p-4">
-        <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold drop-shadow-lg break-words">
-          María de Lourdes Blanco Yañez y Yeremy Alexander Padilla Montilla
+        <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl font-bold drop-shadow-lg">
+          María & Yeremy
         </h1>
         <p className="mt-4 text-lg md:text-2xl drop-shadow-md">
           ¡Nos casamos!
