@@ -1,6 +1,7 @@
 import { Countdown } from "@/components/invitation/Countdown";
 import { DressCode } from "@/components/invitation/DressCode";
 import { EventDetails } from "@/components/invitation/EventDetails";
+import { FooterImage } from "@/components/invitation/FooterImage";
 import { Gallery } from "@/components/invitation/Gallery";
 import { GiftRegistry } from "@/components/invitation/GiftRegistry";
 import { Hero } from "@/components/invitation/Hero";
@@ -25,6 +26,7 @@ export default function Home() {
         <GiftRegistry />
         <RsvpForm />
       </div>
+      <FooterImage />
     </>
   );
 }
