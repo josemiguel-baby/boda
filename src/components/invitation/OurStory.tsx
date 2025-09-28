@@ -15,15 +15,15 @@ export function OurStory() {
             data-ai-hint="couple portrait sunset"
           />
         </div>
-        <div className="md:w-1/2 text-left space-y-4 text-lg text-foreground/80">
+        <div className="md:w-1/2 text-justify space-y-4 text-lg text-foreground/80" >
           <p>
             Our journey began on a crisp autumn evening, under a sky full of stars. What started with a shared laugh over a cup of coffee soon blossomed into a connection neither of us expected. We discovered a shared love for spontaneous road trips, quiet evenings with good books, and the simple joy of making each other smile.
           </p>
           <p>
-            Through every chapter of our lives, we've been each other's biggest supporters and best friends. We've built a life filled with love, adventure, and countless cherished memories.
+          Con el amor que nos une, queremos recibir la bendición de Dios, acompañados por nuestros padres e hijos.
           </p>
           <p>
-            Now, we're thrilled to start our next chapter as husband and wife, and we can't wait to celebrate this special moment with you, our dearest family and friends.
+          Por esto te invitamos a celebrar el día más especial para nuestras vidas, el comienzo de nuestra historia. 
           </p>
         </div>
       </div>

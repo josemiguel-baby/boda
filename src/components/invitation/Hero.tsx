@@ -4,8 +4,8 @@ export function Hero() {
   return (
     <div className="w-full">
       <Image
-        src="/images/top_my.jpg"
-        alt="Wedding header image"
+        src="/images/top2012.jpg"
+        alt="María y Yeremy"
         width={1920}
         height={1080}
         className="w-full h-auto"
