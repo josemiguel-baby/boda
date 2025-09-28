@@ -2,7 +2,6 @@
 
 import { Button } from "@/components/ui/button";
 import { Section } from "@/components/shared/Section";
-import { Card, CardContent } from "@/components/ui/card";
 
 const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -32,16 +31,14 @@ export function RsvpForm() {
 
   return (
     <Section id="rsvp" title="Confirmación de asistencia" description="Por favor déjanos saber si podrás acompañarnos en esta fecha">
-      <Card className="max-w-2xl mx-auto shadow-lg">
-        <CardContent className="p-6 md:p-8 flex justify-center">
+      <div className="flex justify-center">
           <Button asChild size="lg">
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
               <WhatsAppIcon className="mr-2 h-5 w-5" />
               Confirmar por WhatsApp
             </a>
           </Button>
-        </CardContent>
-      </Card>
+      </div>
     </Section>
   );
 }
