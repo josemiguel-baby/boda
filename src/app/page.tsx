@@ -13,16 +13,18 @@ export default function Home() {
   const weddingDate = new Date("2025-12-20T16:00:00");
 
   return (
-    <div className="flex flex-col items-center px-4">
+    <>
       <Hero />
-      <OurStory />
-      <Separator className="my-12 md:my-20" />
-      <Countdown weddingDate={weddingDate} />
-      <EventDetails />
-      <Gallery />
-      <DressCode />
-      <GiftRegistry />
-      <RsvpForm />
-    </div>
+      <div className="flex flex-col items-center px-4">
+        <OurStory />
+        <Separator className="my-12 md:my-20" />
+        <Countdown weddingDate={weddingDate} />
+        <EventDetails />
+        <Gallery />
+        <DressCode />
+        <GiftRegistry />
+        <RsvpForm />
+      </div>
+    </>
   );
 }
