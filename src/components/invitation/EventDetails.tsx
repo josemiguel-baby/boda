@@ -29,27 +29,31 @@ export function EventDetails() {
     <Section id="details" title="Lugar">
       <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
         {events.map((event) => (
-          <Card key={event.title} className="text-center shadow-lg hover:shadow-xl transition-shadow duration-300">
-            <CardHeader>
-              <div className="mx-auto bg-primary text-primary-foreground rounded-full w-16 h-16 flex items-center justify-center mb-4">
-                <event.icon className="w-8 h-8" />
-              </div>
-              <CardTitle className="font-headline text-2xl">{event.title}</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div className="flex items-center justify-center gap-2 text-muted-foreground">
-                <CalendarDays className="w-4 h-4" />
-                <span>{event.date} a las {event.time}</span>
-              </div>
-              <div className="font-semibold text-lg">{event.location}</div>
-              <p className="text-muted-foreground">{event.address}</p>
-              <Button asChild variant="outline">
-                <a href={event.mapLink} target="_blank" rel="noopener noreferrer">
-                  <MapPin className="mr-2 h-4 w-4" />
-                  Ver en mapa
-                </a>
-              </Button>
-            </CardContent>
+          <Card key={event.title} className="text-center shadow-lg hover:shadow-xl transition-shadow duration-300 bg-cover bg-center" style={{ backgroundImage: "url('/images/fondo.jpg')"}}>
+            <div className="bg-background/70 rounded-lg h-full flex flex-col">
+              <CardHeader>
+                <div className="mx-auto bg-primary text-primary-foreground rounded-full w-16 h-16 flex items-center justify-center mb-4">
+                  <event.icon className="w-8 h-8" />
+                </div>
+                <CardTitle className="font-headline text-2xl">{event.title}</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4 flex-grow flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center justify-center gap-2 text-muted-foreground">
+                    <CalendarDays className="w-4 h-4" />
+                    <span>{event.date} a las {event.time}</span>
+                  </div>
+                  <div className="font-semibold text-lg mt-4">{event.location}</div>
+                  <p className="text-muted-foreground">{event.address}</p>
+                </div>
+                <Button asChild variant="outline" className="mt-4">
+                  <a href={event.mapLink} target="_blank" rel="noopener noreferrer">
+                    <MapPin className="mr-2 h-4 w-4" />
+                    Ver en mapa
+                  </a>
+                </Button>
+              </CardContent>
+            </div>
           </Card>
         ))}
       </div>

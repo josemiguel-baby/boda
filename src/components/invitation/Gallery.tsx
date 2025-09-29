@@ -9,7 +9,7 @@ export function Gallery() {
   return (
     <Section id="gallery" title="Galeria" description="Algunos de nuestros momentos.">
        <div className="bg-cover bg-center bg-no-repeat rounded-lg" style={{ backgroundImage: "url('/images/fondo.jpg')" }}>
-        <div className="bg-background/60 p-4 md:p-8 rounded-lg shadow-lg">
+        <div className="bg-background/70 p-4 md:p-8 rounded-lg shadow-lg">
           <div className="columns-2 md:columns-3 gap-4">
             {images.map((image, index) => (
               <div key={image.id} className="mb-4 break-inside-avoid">
