@@ -46,7 +46,7 @@ export function EventDetails() {
                   <div className="font-semibold text-lg mt-4">{event.location}</div>
                   <p className="text-muted-foreground">{event.address}</p>
                 </div>
-                <Button asChild className="mt-4" >
+                <Button asChild className="mt-4" size="sm">
                   <a href={event.mapLink} target="_blank" rel="noopener noreferrer">
                     <MapPin className="mr-2 h-4 w-4" />
                     Ver en mapa
