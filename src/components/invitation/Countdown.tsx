@@ -52,7 +52,7 @@ export function Countdown({ weddingDate }: CountdownProps) {
   ];
 
   return (
-    <Section title="El gran día se esta acercando" >
+    <Section title="El gran día se esta acercando" style={{ backgroundColor: '#4C7867' }}>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-2xl mx-auto">
         {timeUnits.map((unit) => (
           <div key={unit.label} className="flex flex-col items-center justify-center bg-card p-6 rounded-lg shadow-md border border-primary/20">
