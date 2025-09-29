@@ -53,15 +53,19 @@ export function Countdown({ weddingDate }: CountdownProps) {
 
   return (
     <Section title="El gran día se esta acercando">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-2xl mx-auto">
-        {timeUnits.map((unit) => (
-          <div key={unit.label} className="flex flex-col items-center justify-center bg-card p-6 rounded-lg shadow-md border border-primary/20">
-            <span className="font-headline text-4xl md:text-6xl font-bold text-primary">{String(unit.value).padStart(2, "0")}</span>
-            <span className="text-sm md:text-base text-muted-foreground">{unit.label}</span>
+      <div className="bg-cover bg-center bg-no-repeat rounded-lg" style={{ backgroundImage: "url('/images/birds.jpg')" }}>
+        <div className="bg-background/60 p-4 md:p-8 rounded-lg shadow-lg">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-2xl mx-auto">
+            {timeUnits.map((unit) => (
+              <div key={unit.label} className="flex flex-col items-center justify-center bg-card p-6 rounded-lg shadow-md border border-primary/20">
+                <span className="font-headline text-4xl md:text-6xl font-bold text-primary">{String(unit.value).padStart(2, "0")}</span>
+                <span className="text-sm md:text-base text-muted-foreground">{unit.label}</span>
+              </div>
+            ))}
           </div>
-        ))}
+          <img src="/images/ornamental.png" className="mx-auto" ></img>
+        </div>
       </div>
-      <img src="images/ornamental.png" className="mx-auto" ></img>
     </Section>
   );
 }
