@@ -61,6 +61,7 @@ export function Countdown({ weddingDate }: CountdownProps) {
           </div>
         ))}
       </div>
+      <img src="images/ornamental.png" className="mx-auto" ></img>
     </Section>
   );
 }
