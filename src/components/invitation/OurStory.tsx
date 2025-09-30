@@ -18,7 +18,7 @@ export function OurStory() {
               data-ai-hint="couple portrait sunset"
             />
           </div>
-          <div className="md:w-1/2 text-justify space-y-4 text-lg text-foreground/80">
+          <div className="md:w-1/2 text-justify space-y-4 text-lg text-foreground/80 font-semibold">
             <p>
             &emsp;&emsp;Cuando nos conocimos entendimos que nos uniría algo más fuerte que el tiempo y la distancia. Hoy damos gracias a Dios por haberlas sabido superar con mucha paciencia y amor, y por habernos hecho coincidir en el camino y empezar una vida juntos.
             </p>
