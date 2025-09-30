@@ -7,7 +7,7 @@ const events = [
   {
     icon: Church,
     title: "Ceremonia",
-    date: "Sabado, 20 de Diciembre del 2025",
+    date: "Sábado, 20 de Diciembre del 2025",
     time: "4:00 PM",
     location: "Catedral Santa Rosa de Lima",
     address: "Casco central, Carúpano 6150",
@@ -16,7 +16,7 @@ const events = [
   {
     icon: PartyPopper,
     title: "Recepción",
-    date: "Sabado, 20 de Diciembre del 2025",
+    date: "Sábado, 20 de Diciembre del 2025",
     time: "5:00 PM",
     location: "Granja Ecoturística La Guacha",
     address: "96 Av. Principal El Muco, Carúpano 6150",

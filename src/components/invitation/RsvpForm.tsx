@@ -24,13 +24,13 @@ const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
 
 
 export function RsvpForm() {
-  const phoneNumber = "15551234567"; // Replace with your WhatsApp number
+  const phoneNumber = "584125462581"; // Replace with your WhatsApp number
   const message = "¡Hola! Confirmo mi asistencia a la boda."; // Optional: pre-filled message
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
 
   return (
-    <Section id="rsvp" title="Confirmación de asistencia" description="Por favor déjanos saber si podrás acompañarnos en esta fecha">
+    <Section id="rsvp" title="Confirmación de asistencia" description="Por favor déjanos saber si podrás acompañarnos en esta fecha.">
       <div className="flex justify-center">
           <Button asChild size="lg">
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer">

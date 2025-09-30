@@ -20,18 +20,14 @@ export function OurStory() {
           </div>
           <div className="md:w-1/2 text-justify space-y-4 text-lg text-foreground/80">
             <p>
-                  Our journey began on a crisp autumn evening, under a sky full of
-              stars. What started with a shared laugh over a cup of coffee soon
-              blossomed into a connection neither of us expected. We discovered a
-              shared love for spontaneous road trips, quiet evenings with good
-              books, and the simple joy of making each other smile.
+            &emsp;&emsp;Cuando nos conocimos entendimos que nos uniría algo más fuerte que el tiempo y la distancia. Hoy damos gracias a Dios por haberlas sabido superar con mucha paciencia y amor, y por habernos hecho coincidir en el camino y empezar una vida juntos.
             </p>
             <p>
-                  Con el amor que nos une, queremos recibir la bendición de Dios,
+            &emsp;&emsp;Por eso con el amor que nos une, queremos recibir la bendición de Dios,
               acompañados por nuestros padres e hijos.
             </p>
             <p>
-              Por esto te invitamos a celebrar el día más especial para nuestras
+            &emsp;&emsp;Por esto te invitamos a celebrar el día más especial para nuestras
               vidas, el comienzo de nuestra historia.
             </p>
           </div>
