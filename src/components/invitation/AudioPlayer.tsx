@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { Music, PauseCircle, PlayCircle } from "lucide-react";
+import { Music } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function AudioPlayer() {
@@ -49,14 +49,15 @@ export function AudioPlayer() {
   };
 
   return (
-    <div className="fixed bottom-4 right-4 z-50">
+    <div className="fixed top-4 right-4 z-50">
       <audio ref={audioRef} src="/almas.mp3" loop />
       <Button
         onClick={togglePlay}
         size="icon"
+        variant={isPlaying ? "default" : "outline"}
         className="rounded-full w-14 h-14"
       >
-        {isPlaying ? <PauseCircle className="w-8 h-8" /> : <PlayCircle className="w-8 h-8" />}
+        <Music className="w-8 h-8" />
         <span className="sr-only">Play/Pause Music</span>
       </Button>
     </div>
