@@ -6,7 +6,8 @@ export function DressCode() {
   const pinterestLink = "https://pin.it/1xo70k2cG";
 
   return (
-    <Section id="dress-code" title="Código de vestimenta" className="bg-cover bg-no-repeat rounded-lg shadow-lg" style={{ backgroundImage: "url('/images/fondo.jpg')" }}>
+    
+    <Section id="dress-code" title="Código de vestimenta" className="bg-cover bg-no-repeat rounded-lg shadow-lg bg-opacity-50" style={{ backgroundImage: "url('/images/fondo.jpg')" }}>
       
       <div className=" max-w-2xl mx-auto text-center space-y-6">
         
@@ -16,6 +17,8 @@ export function DressCode() {
 <img src="/images/detalle.png" className="w-4 inline-block mx-2" ></img>
         </p>
          
+         
+
         <p className="text-lg text-muted-foreground">
         Amablemente les pedimos que cumplan con la vestimenta sugerida para que todos luzcan hermosos en nuestras fotos del recuerdo.
         </p>
@@ -29,6 +32,8 @@ export function DressCode() {
             Ver ideas
           </a>
         </Button>
+       
+
       </div>
     </Section>
   );
