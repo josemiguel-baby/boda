@@ -8,6 +8,7 @@ import { Hero } from "@/components/invitation/Hero";
 import { OurStory } from "@/components/invitation/OurStory";
 import { RsvpForm } from "@/components/invitation/RsvpForm";
 import { Separator } from "@/components/ui/separator";
+import { AudioPlayer } from "@/components/invitation/AudioPlayer";
 
 export default function Home() {
   // Set the wedding date to a future date for the countdown
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <AudioPlayer />
       <div className="flex flex-col items-center px-4">
         <OurStory />
         <Separator className="my-12 md:my-20" />
