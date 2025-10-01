@@ -54,7 +54,6 @@ export function AudioPlayer() {
       <Button
         onClick={togglePlay}
         size="icon"
-        variant={isPlaying ? "default" : "outline"}
         className="rounded-full w-14 h-14"
       >
         <Music className="w-8 h-8" />
