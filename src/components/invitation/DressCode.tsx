@@ -11,9 +11,9 @@ export function DressCode() {
       <div className=" max-w-2xl mx-auto text-center space-y-6">
         
         <p className="font-headline text-2xl md:text-3xl font-bold tracking-tight text-primary">
-         <img src="/images/detalle.png" className="w-16 inline-block"></img>
+         <img src="/images/detalle.png" className="w-4 inline-block mx-2"></img>
          Coctel
-<img src="/images/detalle.png" className="w-16 inline-block" ></img>
+<img src="/images/detalle.png" className="w-4 inline-block mx-2" ></img>
         </p>
          
         <p className="text-lg text-muted-foreground">
