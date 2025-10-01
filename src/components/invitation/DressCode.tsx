@@ -9,10 +9,13 @@ export function DressCode() {
     <Section id="dress-code" title="Código de vestimenta" className="bg-cover bg-no-repeat rounded-lg shadow-lg" style={{ backgroundImage: "url('/images/fondo.jpg')" }}>
       
       <div className=" max-w-2xl mx-auto text-center space-y-6">
-        <p className="font-headline text-2xl md:text-3xl font-bold tracking-tight text-primary">
-          Coctel
-        </p>
         
+        <p className="font-headline text-2xl md:text-3xl font-bold tracking-tight text-primary">
+         <img src="/images/detalle.png" className="w-16 inline-block"></img>
+         Coctel
+<img src="/images/detalle.png" className="w-16 inline-block" ></img>
+        </p>
+         
         <p className="text-lg text-muted-foreground">
         Amablemente les pedimos que cumplan con la vestimenta sugerida para que todos luzcan hermosos en nuestras fotos del recuerdo.
         </p>
