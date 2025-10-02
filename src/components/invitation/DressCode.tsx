@@ -7,10 +7,11 @@ export function DressCode() {
 
   return (
     
-    <Section id="dress-code" title="Código de vestimenta" className="bg-cover bg-no-repeat rounded-lg shadow-lg bg-bottom" style={{ backgroundImage: "url('/images/fondo.jpg')" }}>
-        
-        <div className="bg-background/70 p-4 md:p-8 rounded-lg shadow-lg">
-          <div className=" max-w-2xl mx-auto text-center space-y-6 p-4">
+    <Section id="dress-code" className="bg-cover bg-no-repeat rounded-lg shadow-lg bg-bottom" style={{ backgroundImage: "url('/images/fondo.jpg')" }}>
+        <div className="bg-background/50 p-4">
+          <h2 className="font-headline text-3xl md:text-4xl font-bold tracking-tight text-center mb-8">Código de vestimenta</h2>
+          <div className=" max-w-2xl mx-auto text-center space-y-6">
+
             <p className="font-headline text-3xl md:text-4xl font-bold tracking-tight text-primary">
             <img src="/images/detalle.png" className="w-3 inline-block mx-2"></img>
             Coctel
@@ -22,10 +23,13 @@ export function DressCode() {
             </p>
             
             <div className="text-lg text-muted-foreground space-y-2">
-              <div className="flex items-center justify-center gap-2">
+
+              <div className="flex items-center justify-center gap-1">
+
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
                 </svg>
+
                 <span>Restricciones:</span>
               </div>
               <ul className="list-none p-0">
