@@ -7,8 +7,8 @@ export function DressCode() {
 
   return (
     
-    <Section id="dress-code" className="bg-cover bg-no-repeat rounded-lg shadow-lg bg-bottom" style={{ backgroundImage: "url('/images/fondo.jpg')" }}>
-        <div className="bg-background/50 p-4">
+    <Section id="dress-code" className="md:pt-0 bg-cover bg-no-repeat rounded-lg shadow-lg bg-bottom" style={{ backgroundImage: "url('/images/fondo.jpg')" }}>
+        <div className="bg-background/50 p-8">
           <h2 className="font-headline text-3xl md:text-4xl font-bold tracking-tight text-center mb-8">Código de vestimenta</h2>
           <div className=" max-w-2xl mx-auto text-center space-y-6">
 
