@@ -23,7 +23,7 @@ export function OurStory() {
             &emsp;&emsp;Cuando nos conocimos entendimos que nos uniría algo más fuerte que el tiempo y la distancia. Hoy damos gracias a Dios por haberlas sabido superar con mucha paciencia y amor, y por habernos hecho coincidir en el camino y empezar una vida juntos.
             </p>
             <p>
-            &emsp;&emsp;Por eso con el amor que nos une, queremos recibir la bendición de Dios,
+            &emsp;&emsp;Con el amor que nos une, queremos recibir la bendición de Dios,
               acompañados por nuestros padres e hijos.
             </p>
             <p>

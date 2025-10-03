@@ -40,7 +40,7 @@ export function DressCode() {
             </div>
 
             <p className="text-lg text-muted-foreground">
-            Aqui puedes ver un enlace con ideas semejantes a lo que queremos.
+            Aquí puedes ver un enlace con ideas semejantes a lo que queremos.
             </p>
             
             <Button asChild>
