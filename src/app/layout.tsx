@@ -6,7 +6,7 @@ import { ClientLayout } from '@/components/shared/ClientLayout';
 
 const pageTitle = "Yeremy y María";
 const pageDescription = "Te invitamos a celebrar nuestra boda.";
-const pageUrl = "https://yeremyymaria.com"; // Reemplaza con tu dominio final
+const pageUrl = "https://example.com"; // You can change this to your actual domain
 
 export const metadata: Metadata = {
   title: pageTitle,
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: pageUrl,
     images: [
       {
-        url: '/preview.jpg',
+        url: '/preview.jpg', // Updated to be a root-relative path
         width: 1200,
         height: 630,
         alt: pageTitle,
@@ -25,12 +25,6 @@ export const metadata: Metadata = {
     ],
     locale: 'es_ES',
     type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: pageTitle,
-    description: pageDescription,
-    images: ['/preview.jpg'],
   },
 };
 
