@@ -5,7 +5,7 @@ export function FooterImage() {
     <div className="w-full">
       <Image
         src="/images/bottom.jpg"
-        alt="Wedding footer image"
+        alt=""
         width={1920}
         height={1080}
         className="w-full h-auto"

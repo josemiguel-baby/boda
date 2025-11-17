@@ -15,7 +15,6 @@ export function OurStory() {
               width={600}
               height={800}
               className="rounded-lg shadow-lg object-cover aspect-[3/4]"
-              data-ai-hint="couple portrait sunset"
             />
           </div>
           <div className="md:w-1/2 text-justify space-y-4 text-lg text-foreground/80">

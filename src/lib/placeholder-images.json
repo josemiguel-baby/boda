@@ -2,39 +2,39 @@
   "placeholderImages": [
     {
       "id": "gallery-1",
-      "description": "A loving couple holding hands.",
+      "description": "",
       "imageUrl": "/images/1.jpg",
-      "imageHint": "couple hands"
+      "imageHint": ""
     },
     {
       "id": "gallery-2",
-      "description": "A beautiful wedding cake with floral decorations.",
+      "description": "",
       "imageUrl": "/images/2.jpg",
-      "imageHint": "wedding cake"
+      "imageHint": ""
     },
     {
       "id": "gallery-3",
-      "description": "A bouquet of wedding flowers.",
+      "description": "",
       "imageUrl": "/images/3.jpg",
-      "imageHint": "wedding flowers"
+      "imageHint": ""
     },
     {
       "id": "gallery-4",
-      "description": "A couple smiling on their wedding day.",
+      "description": "",
       "imageUrl": "/images/4.jpg",
-      "imageHint": "happy couple"
+      "imageHint": ""
     },
     {
       "id": "gallery-5",
-      "description": "Wedding rings on a pillow.",
+      "description": "",
       "imageUrl": "/images/5.jpg",
-      "imageHint": "wedding rings"
+      "imageHint": ""
     },
     {
       "id": "gallery-6",
-      "description": "A beautifully set table at a wedding reception.",
+      "description": "",
       "imageUrl": "/images/6.jpg",
-      "imageHint": "wedding reception"
+      "imageHint": ""
     }
   ]
 }
